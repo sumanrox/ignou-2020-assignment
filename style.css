@@ -1,10 +1,19 @@
+/* Universal Defaults */
 body,html{
     margin: 0;
     padding: 0;
     font-family: 'Futura Md BT';
 }
 
-.nav{
+.logo{
+    height: 150px;
+    width: 120px;
+}
+
+
+
+/* Body */
+.navbar{
     height: 70px;
     width: 100%;
     display: flex;
@@ -15,7 +24,6 @@ body,html{
     margin-left: 70px;
     margin-right: 70px;
 }
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -23,45 +31,43 @@ body,html{
     margin-top: 20px;
 }
 
-.intro{
+/* Intro */
+
+.intro-card{
     width: 50%;
 }
-.intro_x{
+.intro-content{
     line-height: 2em;
 }
-.design{
-    display: flex;
-    align-items: flex-end;
+.intro-text-title{
+    font-size: 60px;
+}
+.intro-text-body{
+    position: absolute;
 }
 
-.intro ul{
+/* Body Nav */
+.body-nav{
     position: absolute;
     bottom: 15%;
     padding-left: 0;
     list-style: none;
     line-height: 30px;
 }
-.intro ul li{
+.body-nav-items{
     letter-spacing: 5px;
     text-decoration: none;
     text-transform: uppercase;
 }
-.intro .welcome{
-    font-size: 60px;
-}
-.intro .welcome_2{
-    position: absolute;
-}
-
-.logo{
-    height: 150px;
-    width: 120px;
-}
 
 /* Designer Line */
 
+.design{
+    display: flex;
+    align-items: flex-end;
+}
 
-.design .line{
+.line{
     position: absolute;
     height: 50vh;
     width: 2px;
@@ -71,7 +77,7 @@ body,html{
     right: 0%;
 }
 
-.design h4{
+.line-desc{
     text-transform: uppercase;
     transform: rotate(90deg);
     position: absolute;
