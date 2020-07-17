@@ -1,0 +1,80 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Futura Md BT';
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m-7{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    margin-top: 20px;
+}
+
+.intro{
+    width: 50%;
+}
+.intro_x{
+    line-height: 2em;
+}
+.design{
+    display: flex;
+    align-items: flex-end;
+}
+
+.intro ul{
+    position: absolute;
+    bottom: 15%;
+    padding-left: 0;
+    list-style: none;
+    line-height: 30px;
+}
+.intro ul li{
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.intro .welcome{
+    font-size: 60px;
+}
+.intro .welcome_2{
+    position: absolute;
+}
+
+.logo{
+    height: 150px;
+    width: 120px;
+}
+
+/* Designer Line */
+
+
+.design .line{
+    position: absolute;
+    height: 50vh;
+    width: 2px;
+    background: black;
+    margin-right: 80px;
+    top: 20%;
+    right: 0%;
+}
+
+.design h4{
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 42px;
+    top: 75%;
+}
