@@ -1,0 +1,20 @@
+html, body{
+    font-family: 'Roboto';
+}
+
+* {
+    border-radius: 0 !important;
+  }
+
+  .list-group, .list-group-item{
+      border: none;
+      background-color: transparent;
+  }
+  .footer{
+      color: whitesmoke;
+      background: black;
+  }
+
+  .img-class-reg{
+      height: 100vh;
+  }
